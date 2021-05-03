@@ -1,11 +1,10 @@
 ---
 description: >-
-  Salam, bu yazıda Windows Domain Controller və domenə komputerin qoşulması
-  haqqında yazacam. Domain Controller-i Windows komputerləri idarə edə
-  biləcəyimiz bir mərkəzi servis kimi təsəvvür etmək olar.
+  Salam, bu yazıda domenə komputerin qoşulması haqqında yazacam. Domain
+  Controller-in nə olduğunu bundan qabaqki yazımızda izah etmişdik
 ---
 
-# Domen nədir? Domenə necə qoşulmaq olar?
+# Domenə necə qoşulmaq olar?
 
 Bu labaratoriyanı etmək üçün sizə bir ədəd virtual windows server bir ədəd isə windows 10 virtual maşını lazım olacaq. Birinci windows server-də domain controller quraşdıracayıq. Bundan sonra isə windows 10-u windows serverdə quraşdırdığımız domenə qoşacayıq. Bu nümunədə VMware workstation pro 16 hypervisorundan istifadə edəcəm.
 
