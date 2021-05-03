@@ -12,8 +12,8 @@
 ---
 
 * [Windows 10 əməliyyat sisteminin möhkəmləndirilməsi \(WORKGROUP komputerlər üçün\)](windows10-hardening.md)
-* [Domen nədir? Domenə necə qoşulmaq olar?](joining-domain.md)
-* [Group policy və GPO nədir?](group-policy-v-gpo-n-dir.md)
+* [Active Directory haqqında fundamental biliklər](active-directory-haqqinda-fundamental-bilikl-r.md)
+* [Domenə necə qoşulmaq olar?](joining-domain.md)
 
 ## Penetration testing
 
