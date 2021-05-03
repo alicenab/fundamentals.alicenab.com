@@ -14,7 +14,7 @@ hər hansı bir dəyişənin dəyərinin bərabərliyinin yoxlanması üçün ik
 
 Əgər ifdən sonra yazacağımız şeyi ifadə adlandırası olsaq,
 
-`! ifade` Əgər ifade `False` olarsa True qaytarır. `( $test )` Əgər ifade `True` olarsa `True` qaytarır.
+`! ifade` Əgər ifadə `False` olarsa True qaytarır. `( $test )` Əgər ifade `True` olarsa `True` qaytarır.
 
 `ifade1 && ifade2` Hər iki ifadə `True` olarsa True qaytarır. `ifade1 || ifade2` İki ifadədən biri `True` olduqda `True` qaytarır.
 
