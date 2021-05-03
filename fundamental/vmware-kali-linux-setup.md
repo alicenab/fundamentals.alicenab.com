@@ -116,7 +116,7 @@ Burada klavyaturadakı sağ-sol oxlar vasitəsiylə "System Congurations" bölm�
 
 Komputer yenidən başladıqdan sonra aşağıdakı komandanın cavabı "Yes" olarsa, deməli siz komputerinizdə "Virtualization"-u müvəffəqiyyətlə aktivləşdirmisiniz. Artıq VMWare-dən istifadə edə bilərsiniz.
 
-![](../.gitbook/assets/29%20%281%29.png)
+![](../.gitbook/assets/21%20%281%29%20%281%29.png)
 
 Hörmətlə.
 
