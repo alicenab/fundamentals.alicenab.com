@@ -105,5 +105,59 @@ Shared folder ilə eyni məntiqdə işləyir. Sadəcə printerlər üçündür.
 
 ## LDAP - Lightweight Directory Access Protocol
 
+LDAP directory servislərinə giriş etmək üçün istifadə olunan crossplatform protokoldur. LDAP proqramlar və digər sistemlərin directory serverlərlə əlaqəsini təmin etmək üçün danışıq vasitəsi rolunu oynayır. Sadə dildə desək, LDAP Active Directoryə qoşulmaq və əlaqə qurmaq üçün bir yoldur.
+
+## Active Directory Security
+
+### Kerberos
+
+Kerberos istifadəçiləri identifikasiya edərək domen resurslarına keçidini təsdiq etmək üçün işlədilən təhlükəsizlik protokoludur.
+
+### Ticket Granting Ticket \(TGT\)
+
+### Key Distribution Center \(KDC\)
+
+KDC domain controllerdə çalışan və Kerberos protokolunda istifadə olunan session ticket paylama servisidir.
+
+### Service Principal Names \(SPN\)
+
+SPN servisin unikal identifieridir.
+
+### NTLM 
+
+NTLM istifadəçilərin autentikasiyası, tamlığı və konfidensiallığı üçün işlədilər təhlükəsizlik protokolları toplusudur.
+
+### NTFS Permissions
+
+NTFS səlahiyyətləri dedikdə qovluğa və ya fayla təyin edilən səlahiyyət nəzərdə tutulur. 5 default səlahiyyət tipi mövcuddur:
+
+* **Full Control** – Aşağıdakıların hamısı
+* **Modify** – faylları görmək və dəyişdirə bilmək üçün
+* **Read & Execute** – faylları görmək və çalışdıra bilmək üçün
+* **Read** – faylın içindəkiləri görmək üçün
+* **Write** – fayl və qovluqların yaradılması, mövcud olan faylın içinin dəyişdirilməsi üçün
+
+### Share Permissions
+
+Share səlahiyyətləri dedikdə share olunmuş qovluğa istifadəçilərin səlahiyyətləri nəzərdə tutulur. 3 tipi mövcuddur:
+
+* **Read** – qovluğa və alt qovluqlara baxmaq üçün lazımdır
+* **Change** – oxumaq və dəyişdirmək üçün lazımdır
+* **Full Control** – İstifadəçilərə dəyişdirmək, oxumaq, silmək yazmaq və digər bütün səlahiyyətləri verir.
+
+### Discretionary access control list \(DACL\)
+
+DACL verilmiş fayla və ya qovluğa hansı istifadəçinin buraxılıb buraxılmadığını təyin etmək üçündür.
+
+### Access Control Entries \(ACE\)
+
+DACL özü ACE-lərdən ibarətdir. ACE hansı istifadəçi hesabının resursa hansı səviyyədə icazəsi olduğunu müəyyən edir. Əgər heç bir ACE yoxdursa, sistem həmin object-ə olan bütün müraciətlə icazə vermir.
+
+### System Access Control List \(SACL\)
+
+SACL administratorlara təhlükəsizlik object-lərinə giriş cəhdlərini loglamağa imkan verir.
+
+#### 
+
 
 
