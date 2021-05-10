@@ -12,7 +12,7 @@
 ---
 
 * [Windows 10 əməliyyat sisteminin möhkəmləndirilməsi \(WORKGROUP komputerlər üçün\)](windows10-hardening.md)
-* [Active Directory termin lüğəti](active-directory-haqqinda-fundamental-bilikl-r.md)
+* [Active Directory termin lüğəti](ad-terminler.md)
 * [Domenə necə qoşulmaq olar?](joining-domain.md)
 
 ## Penetration testing
