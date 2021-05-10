@@ -67,25 +67,33 @@ Onlar haqqında əlavə məlumatı bu keçiddən əldə edə bilərsiniz: [https
 
 Active Directory ilə işlədiyiniz zaman birbaşa və ya dolayı yolla object-lərlə işləmiş sayılırsınız. Object dedikdə domendəki bir resursu bildirən atribut grupları nəzərdə tutulur. Object-lər SİD adlandırılan unique security identifier-inə birləşirlər ki, bu da domen-dəki digər resursla object-in icazə verilib verilməməsinə yarayır. Yeni Active Directory üzərində gələn default object tipləri aşağıdakılardır:
 
-**Organizational Unit**
+### **Organizational Unit**
 
 OU eyni domendəki müxtəlif object-ləri özündə saxlaya bilən bir container-dir. User accounts, contacts, computers və groups-u organize etmək üçün organizational unit-lər istifadə olunur. Group policy object-lər OU-lara təyin oluna bilirlər. 
 
-**Users** 
+### **Users** 
 
 İstifadəçi hesabları əsasən istifadəçilərə ona görə verilir ki, onlar domen resurslarına giriş edə bilsinlər. Bununla bərabər, sistem servislərinin və ya proqramların işləməsi üçün də istifadəçi yaradıla bilər. 
 
+### **Computer** 
 
+Domenə qoşulan komputeri bildirir.
 
-Computer - Domenə qoşulan komputeri bildirir.
+### **Groups** 
 
-* **Groups** - iki tip qruplar mövcuddur: security və distribution. Security group vasitəsi ilə istifadəçiləri qruplaşdırılır ki, domen resurslarına giriş icazəsi vermək sadələşsin. Məsələn, əgər HR departamenti üçün yaradılmış qovluğa yalnız HR departamentinin giriş etməsini təmin etmək istəsəm, HR departament istifadəçilərinin hamısını bir security group-a atıb, həmin group-u həmin folder-ə apply edərəm. Bu hər bir HR əməkdaşı üçün ayrı-ayrı icazə verməyimin qarşısını alaraq işin effektivliyini artırır. Distribution qruplar isə email distribution list-lər üçün istifadə olunur
+İki tip qruplar mövcuddur: security və distribution. Security group vasitəsi ilə istifadəçiləri qruplaşdırılır ki, domen resurslarına giriş icazəsi vermək sadələşsin. Məsələn, əgər HR departamenti üçün yaradılmış qovluğa yalnız HR departamentinin giriş etməsini təmin etmək istəsəm, HR departament istifadəçilərinin hamısını bir security group-a atıb, həmin group-u həmin folder-ə apply edərəm. Bu hər bir HR əməkdaşı üçün ayrı-ayrı icazə verməyimin qarşısını alaraq işin effektivliyini artırır. Distribution qruplar isə email distribution list-lər üçün istifadə olunur
 
+### **Contacts** 
 
+Contact email məqsədləri üçün istifadə olunur. Domenə contact olaraq giriş etmək vəya səlahiyyətləri contact ilə təhlükəsizləşdirmək mümkün deyil. 
 
-* **Contacts** - Contact email məqsədləri üçün istifadə olunur. Domenə contact olaraq giriş etmək vəya səlahiyyətləri contact ilə təhlükəsizləşdirmək mümkün deyil. 
-* **Shared folder** - Shared folder-i Active Directory-də paylaşdığınızda bir object yaranır. Shared folder-ləri active directory-də paylaşmaq istifadəçilərin domen içində shared olan qovluqları və faylları tapmasını asanlaşdırır. 
-* **Share printer** - Shared folder ilə eyni məntiqdə işləyir. Sadəcə printerlər üçündür.
+### **Shared folder**
+
+Shared folder-i Active Directory-də paylaşdığınızda bir object yaranır. Shared folder-ləri active directory-də paylaşmaq istifadəçilərin domen içində shared olan qovluqları və faylları tapmasını asanlaşdırır. 
+
+### **Share printer**
+
+Shared folder ilə eyni məntiqdə işləyir. Sadəcə printerlər üçündür.
 
 
 
