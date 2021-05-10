@@ -9,11 +9,7 @@ description: >-
 * Active Directory Basics
 * Active Directory Services
 * Active Directory DNS
-* Active Directory Replication
 * Active Directory Security \(Authentication, Security Protocols, Permissions\)
-* Active Directory Management Consoles
-* DHCP
-* Group Policy
 
 ## Active Directory
 
