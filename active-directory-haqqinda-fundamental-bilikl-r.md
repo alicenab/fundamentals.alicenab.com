@@ -83,6 +83,14 @@ Domenə qoşulan komputeri bildirir.
 
 İki tip qruplar mövcuddur: security və distribution. Security group vasitəsi ilə istifadəçiləri qruplaşdırılır ki, domen resurslarına giriş icazəsi vermək sadələşsin. Məsələn, əgər HR departamenti üçün yaradılmış qovluğa yalnız HR departamentinin giriş etməsini təmin etmək istəsəm, HR departament istifadəçilərinin hamısını bir security group-a atıb, həmin group-u həmin folder-ə apply edərəm. Bu hər bir HR əməkdaşı üçün ayrı-ayrı icazə verməyimin qarşısını alaraq işin effektivliyini artırır. Distribution qruplar isə email distribution list-lər üçün istifadə olunur
 
+#### Group scope
+
+Group scope onu göstərir ki, group domenə yoxsa forest-ə apply edilə bilər. 3 group scope mövcuddur:
+
+1.  **Universal** - istənilən digər universal qruplardan, forest-in içindəki istənilən tree və ya domendən olan object-ləri özündə saxlaya bilər.
+2. **Global** - Domendən object-ləri özündə saxlaya bilir. İstənilən domain tree və ya forest içində istifadə oluna bilər.
+3. **Domain local** - İstənilən domendən object-ləri özündə saxlaya bilir ancaq yalnız yaradıldığı domen-ə apply edilə bilir.
+
 ### **Contacts** 
 
 Contact email məqsədləri üçün istifadə olunur. Domenə contact olaraq giriş etmək vəya səlahiyyətləri contact ilə təhlükəsizləşdirmək mümkün deyil. 
@@ -94,6 +102,8 @@ Shared folder-i Active Directory-də paylaşdığınızda bir object yaranır. S
 ### **Share printer**
 
 Shared folder ilə eyni məntiqdə işləyir. Sadəcə printerlər üçündür.
+
+## LDAP - Lightweight Directory Access Protocol
 
 
 
