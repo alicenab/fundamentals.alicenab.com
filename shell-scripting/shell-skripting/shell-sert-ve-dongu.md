@@ -51,9 +51,7 @@ String-lərlə bağlı şərt operatorları
     String1 != String2    True - əgər stringlər bərabər deyilsə.
 ```
 
-Numeric tests 
-
-
+Numeric tests
 
 ```text
 Numeric tests
@@ -81,7 +79,6 @@ then
         echo "Arqument daxil olunmayib."
 fi
 exit 0
-
 ```
 
 Aşağıdakı kod isə, çalışdırıldığı zaman daxil edilən arqumentin olub olmamasını yoxlayır, əgər varsa, həmin arqumentin qovluq olub-olmamasını yoxlayır.
@@ -99,6 +96,4 @@ else
 fi
 exit 0
 ```
-
-
 
