@@ -10,125 +10,125 @@ Bu labaratoriyanı etmək üçün sizə bir ədəd virtual windows server bir ə
 
 Birinci windows serveri quraşdırmaq üçün "Create a new Virtual Machine" seçirik.
 
-![](.gitbook/assets/0.png)
+![](<.gitbook/assets/0 (3).png>)
 
 Açılan pəncərədə "Typical" seçib "Next" basırıq.
 
-![](.gitbook/assets/1.png)
+![](<.gitbook/assets/1 (3).png>)
 
 Burada "I will install the operating system later." deməyimiz vacibdir. Əks təqdirdə windows server lisenziya faylını tapa bilmir. Növbəti mərhələyə keçmək üçün "Next" basırıq.
 
-![](.gitbook/assets/2%20%283%29.png)
+![](<.gitbook/assets/2 (3).png>)
 
 Guest operation system "Microsoft windows", version isə "Windows Server 2019" seçirik.
 
-![](.gitbook/assets/3%20%282%29.png)
+![](<.gitbook/assets/3 (3).png>)
 
 Virtual machine name yerinə istədiyimiz adı qoya bilərik. Location hissəsində isə yaradacağımız virtual maşın fayllarının harada yadda saxlanacağını qeyd etmək lazımdır. C ilə D arasında disk seçimi edərkən minimum 60gb yerin virtual maşın tərəfindən tutulacağını əvvəlcədən nəzərə alın.
 
-![](.gitbook/assets/4%20%283%29.png)
+![](<.gitbook/assets/4 (3).png>)
 
 Mən öz virtual maşınıma 100GB maximum disk ölçüsü təyin edib "Next" deyin.
 
-![](.gitbook/assets/5%20%282%29.png)
+![](<.gitbook/assets/5 (2).png>)
 
-![](.gitbook/assets/6.png)
+![](<.gitbook/assets/6 (2).png>)
 
 Customize hardware deyərək, Windows server 2019-un işlətməsini istədiyiniz ram və cpu miqdarını qeyd edin.
 
-![](.gitbook/assets/7%20%281%29.png)
+![](<.gitbook/assets/7 (2).png>)
 
-![](.gitbook/assets/8%20%282%29.png)
+![](<.gitbook/assets/8 (2).png>)
 
-![](.gitbook/assets/9.png)
+![](<.gitbook/assets/9 (2).png>)
 
 Finish-ə basdıqdan sonra yenidən "Edit virtual machine settings" deyib iso faylını əlavə edin.
 
-![](.gitbook/assets/10.png)
+![](<.gitbook/assets/10 (2).png>)
 
-Lazım olan .iso faylını buradan yükləyə bilərsiniz: [link](https://software-download.microsoft.com/download/pr/17763.737.190906-2324.rs5_release_svc_refresh_SERVER_EVAL_x64FRE_en-us_1.iso)
+Lazım olan .iso faylını buradan yükləyə bilərsiniz: [link](https://software-download.microsoft.com/download/pr/17763.737.190906-2324.rs5\_release\_svc\_refresh\_SERVER\_EVAL\_x64FRE\_en-us\_1.iso)
 
 Aşağıdakı yazını gördükdə mouse ilə virtual maşının içinə klikləyib klavyaturada hansısa düyməyə basın.
 
-![](.gitbook/assets/11%20%281%29.png)
+![](<.gitbook/assets/11 (2).png>)
 
 Açılan pəncərədə sizdən sistem dilini, vaxt və valyuta formatını və klavyatura dilini soruşur. Seçib next basın.
 
-![](.gitbook/assets/12%20%282%29.png)
+![](<.gitbook/assets/12 (2).png>)
 
 install now deyin.
 
-![](.gitbook/assets/13.png)
+![](<.gitbook/assets/13 (2).png>)
 
 Burada sizi 4 seçim qarşılıyır. Onlardan "Desktop experience.." yazılmayanların qrafik interfeysi yoxdur. Sadə qara terminallardan ibarətdir. "Standard evaluation" ilə "Datacenter evaluation" arasında sadəcə virtualizasiya limiti ilə bağlı fərqliliklər var. Biz "Datacenter evaluation" üzərindən davam edək.
 
-![](.gitbook/assets/14.png)
+![](<.gitbook/assets/14 (2).png>)
 
 Lisenziya qaydalarını qəbul edib "Next" deyin.
 
-![](.gitbook/assets/15%20%282%29.png)
+![](<.gitbook/assets/15 (2).png>)
 
 Açılan pəncərədə "Custom" seçin.
 
-![](.gitbook/assets/16%20%282%29.png)
+![](<.gitbook/assets/16 (2).png>)
 
-Format atmaq və sistemi quraşdırmaq istədiyiniz \(bizim versiyada sadəcə bir disk var o da "Drive 0"-dır\) seçib next basın.
+Format atmaq və sistemi quraşdırmaq istədiyiniz (bizim versiyada sadəcə bir disk var o da "Drive 0"-dır) seçib next basın.
 
-![](.gitbook/assets/17%20%281%29.png)
+![](<.gitbook/assets/17 (2).png>)
 
 Prosesin bitməsini və avtomatik restart-ların bitməsini gözləyin.
 
-![](.gitbook/assets/18.png)
+![](<.gitbook/assets/18 (2).png>)
 
 Açılan pəncərədə Windows Server 2019-un Administrator istifadəçisinin şifrəsini yazın.
 
-![](.gitbook/assets/19%20%282%29.png)
+![](<.gitbook/assets/19 (2).png>)
 
 İşarə etdiyim düymə "Windows+Alt+Delete" kombinasiyasıdır. Bunu bura qoymaqlarının səbəbi odur ki, siz həmin kombinasiyanı öz komputerinizdə etdikdə proses öz komputerinizdə baş verir. Ancaq bu düyməyə basmaqla siz həmin kombinasiyanı virtual maşına göndərirsiniz.
 
-![](.gitbook/assets/20.png)
+![](<.gitbook/assets/20 (2).png>)
 
 Administratorun şifrəsini daxil edərək sistemə giriş edin.
 
-![](.gitbook/assets/21%20%282%29.png)
+![](<.gitbook/assets/21 (3).png>)
 
-Windows Admin Center ilə bağlı bildirişi bağlaya bilərsiniz. Çünki Windows Admin Center domain contoller ilə hələ ki tam işləmir. 
+Windows Admin Center ilə bağlı bildirişi bağlaya bilərsiniz. Çünki Windows Admin Center domain contoller ilə hələ ki tam işləmir.&#x20;
 
-![](.gitbook/assets/22%20%281%29.png)
+![](<.gitbook/assets/22 (2).png>)
 
 Server manager-in içində "local server"-ə daxil olub, "computer name"-ə klikləyin. Açılan pəncərədə komputerin adını dəyişmək lazımdır. Mən "DC01" qoymuşam. Sistemə restart atın.
 
-![](.gitbook/assets/23%20%281%29.png)
+![](<.gitbook/assets/23 (2).png>)
 
-"Windows+R" kombinasiyasından istifadə edərək "cmd" əmrini çalışdırın. Açılan pəncərədə "ifconfig" yazaraq virtual maşına assign olunmuş İP adresini, mask-ı və gateway-i özünüzdə qeyd edin. 
+"Windows+R" kombinasiyasından istifadə edərək "cmd" əmrini çalışdırın. Açılan pəncərədə "ifconfig" yazaraq virtual maşına assign olunmuş İP adresini, mask-ı və gateway-i özünüzdə qeyd edin.&#x20;
 
-![](.gitbook/assets/24.png)
+![](<.gitbook/assets/24 (2).png>)
 
-Qeyd etdiyiniz adresləri windows serverdə static olaraq qeyd etmək lazımdır. Bunun üçün Server manager-dən "local server"-ə gəlin, "IPv4 address assigned by DHCP" yazan yerə klikləyin. Açılan pəncərədə "Ethernet0"-a sağ klikləyib "Properties"-ə daxil olun. Yeni açılmış pəncrədə "İnternet protocol version 4 \(TCP/İPv4\) doubleclick edin vəya seçdikdən sonra "Properties"  clickləyin. Açılan pəncərədə bundan qabaqki mərhələdən qeyd etdiyiniz dəyərləri daxil edin. Əlavə olaraq, Preferred DNS server hissəsinə serverin öz İP adresini, alternate DNS server adresinə isə ya 1.1.1.1 , ya da 8.8.8.8 DNS adreslərini əlavə edin.
+Qeyd etdiyiniz adresləri windows serverdə static olaraq qeyd etmək lazımdır. Bunun üçün Server manager-dən "local server"-ə gəlin, "IPv4 address assigned by DHCP" yazan yerə klikləyin. Açılan pəncərədə "Ethernet0"-a sağ klikləyib "Properties"-ə daxil olun. Yeni açılmış pəncrədə "İnternet protocol version 4 (TCP/İPv4) doubleclick edin vəya seçdikdən sonra "Properties"  clickləyin. Açılan pəncərədə bundan qabaqki mərhələdən qeyd etdiyiniz dəyərləri daxil edin. Əlavə olaraq, Preferred DNS server hissəsinə serverin öz İP adresini, alternate DNS server adresinə isə ya 1.1.1.1 , ya da 8.8.8.8 DNS adreslərini əlavə edin.
 
-![](.gitbook/assets/25.png)
+![](<.gitbook/assets/25 (2).png>)
 
 "Active directory Users and Computers" və "DNS Server" əlavə etmək lazımdır. Manager -dən Dashboard-a daxil olun. Açılan pəncərədən "Add roles and features" klikləyin.
 
-![](.gitbook/assets/26%20%281%29.png)
+![](<.gitbook/assets/26 (2).png>)
 
-![](.gitbook/assets/27%20%282%29.png)
+![](<.gitbook/assets/27 (2).png>)
 
-![](.gitbook/assets/28.png)
+![](<.gitbook/assets/28 (2).png>)
 
-![](.gitbook/assets/29.png)
+![](<.gitbook/assets/29 (1).png>)
 
-![](.gitbook/assets/30.png)
+![](<.gitbook/assets/30 (1).png>)
 
-![](.gitbook/assets/31.png)
+![](<.gitbook/assets/31 (1).png>)
 
-![](.gitbook/assets/32%20%281%29.png)
+![](<.gitbook/assets/32 (1).png>)
 
-![](.gitbook/assets/33.png)
+![](<.gitbook/assets/33 (1).png>)
 
-![](.gitbook/assets/34.png)
+![](<.gitbook/assets/34 (1).png>)
 
-![](.gitbook/assets/35%20%281%29.png)
+![](<.gitbook/assets/35 (1).png>)
 
 Close-a basmadan qabaq "Promote this server to a domain controller" clickləyin.
 
@@ -156,7 +156,7 @@ Domain quruluşunu struktur tipi olaraq 3 növə ayırmaq mümkündür. Domain, 
 
 ![](.gitbook/assets/45.png)
 
-Gördüyünüz kimi mənim həm "Windows 10" virtual maşınım var, həm də "Windows Server 2019". Windows 10-un quraşdırılmaq qaydasını bu linkdən öyrənə bilərsiniz. 
+Gördüyünüz kimi mənim həm "Windows 10" virtual maşınım var, həm də "Windows Server 2019". Windows 10-un quraşdırılmaq qaydasını bu linkdən öyrənə bilərsiniz.&#x20;
 
 [https://kt.alicenab.com/fundamental/vmware-windows10-setup](https://kt.alicenab.com/fundamental/vmware-windows10-setup)
 
@@ -172,11 +172,11 @@ Bir məqamda diqqətli olmaq lazımdır. Windows 10-un DNS server yerində Windo
 
 ![](.gitbook/assets/49.png)
 
-Bundan sonra Windows Serverə qayıdıb işarə etdiyim addımlarla klikləyib "Active Directory Users and Computers"-ə daxil olmaq lazımdır. 
+Bundan sonra Windows Serverə qayıdıb işarə etdiyim addımlarla klikləyib "Active Directory Users and Computers"-ə daxil olmaq lazımdır.&#x20;
 
 ![](.gitbook/assets/50.png)
 
-Daxil olduqdan sonra "Users" hissəsinə girib, sağ clickləyib New-&gt;User demək lazımdır.
+Daxil olduqdan sonra "Users" hissəsinə girib, sağ clickləyib New->User demək lazımdır.
 
 ![](.gitbook/assets/51.png)
 
@@ -192,7 +192,7 @@ Finish-ə clickləyərək prosesi sonlandırırıq.
 
 ![](.gitbook/assets/54.png)
 
-Bundan sonra Windows 10-da Settings-&gt;System-&gt;About-&gt;Advanced system settings girmək lazımdır.
+Bundan sonra Windows 10-da Settings->System->About->Advanced system settings girmək lazımdır.
 
 ![](.gitbook/assets/55.png)
 
@@ -202,7 +202,7 @@ Açılan pəncərədə "Computer name"-ə gəlib "Change" basmaq, açılan pənc
 
 ![](.gitbook/assets/57.png)
 
-Ok basdıqdan sonra Windows 10, Windows Server 2019 ilə əlaqə saxlayır və sizdən tələb edir ki istifaçinin adı və şifrəsini daxil edəsiniz. Əgər bu hissdə sizdə DNS-lə bağlı fərqli error gəlirsə, 
+Ok basdıqdan sonra Windows 10, Windows Server 2019 ilə əlaqə saxlayır və sizdən tələb edir ki istifaçinin adı və şifrəsini daxil edəsiniz. Əgər bu hissdə sizdə DNS-lə bağlı fərqli error gəlirsə,&#x20;
 
 `ping serverinIpAdresi`
 
@@ -231,4 +231,3 @@ Komputer açıldıqdan sonra bayaqki About hissəsinə gələrək görürəm ki,
 
 
 Hörmətlə.
-

@@ -10,11 +10,11 @@ Dərsi yeni formatdan çıxmış sistemdə izah edəcəm.
 
 Format zamanı yaranmış istifadəçimizin adı "istifadeci" dir. Bizə lazımdır ki default olaraq deaktiv gələn "Administrator" istifadəçisini aktivləşdirək. Windows-da localgroup-lar var istifadəçiləri qruplaşdırmaqçün. Səlahiyyətli istifadəçilərin qrupunun adı "Administrators", digərlərinin isə "Users"-dir. Bizə lazımdır ki, Format vaxtı default olaraq "Administrators" qrupuna add olunan "istifadeci" istifadəçisini oradan çıxarıb, "Users" localgroup-una add edək. Əməliyyatları etmək üçün "cmd"-ni administrator istifadəçisi ilə çalışdırmaq lazımdır.
 
-![](<.gitbook/assets/0 (3).png>)
+![](<.gitbook/assets/0 (2).png>)
 
 "net user" komandası ilə sistemdə hansı istifadəçilərin olduğunu görürük. Şəkildən də gördüyünüz kimi, sistemdə "Administrator" və "istifadeci" istifadəçiləri mövcuddur hal-hazırda. "Administrator" istifadəçisi haqqda məlumat əldə etmək üçün "net user Administrator" əmrini çalışdırıram. "Account active" hissəsində gördüyüm kimi, status "No"-dur. Aktivləşdirmək üçün "net user Administrator /active:yes" əmrini icra edirəm. Bundan sonra, həm "Administrator" həm də "istifadeci" istifadəçisinin şifrələrini dəyişirəm. PS: Siz asan şifrə qoymayın və fərqli şifrə qoyun.
 
-![](<.gitbook/assets/1 (3).png>)
+![](<.gitbook/assets/1 (2).png>)
 
 Sistemdə hansı "localgroup"-ların olduğunu görmək üçün əmr sətrinə "net localgroup" yazıram. Çıxan yazıdan istədiyim "Administrators" və "Users" nəticələrini görə bilirəm. Hal-hazırda "Administrators" localgroup-unun içində hansı istifadəçilərin olduğunu görmək üçün, "net localgroup Administrators" yazıram. Çıxan nəticədən belə məlum olur ki, Hal-hazırda "Administrators" localgroup-unda "Administrator" və "istifadeci" istifadəçiləri var. "net localgroup Administrators istifadeci /delete" yazaraq "istifadəçi" istifadəçisini "Administrators" localgroup-undan silirəm. Ancaq belə qalsa "istifadeci" istifadəçisi sistemə login ola bilməyəcək. Login olmasını da təmin etmək məqsədi ilə onu "Users" localgroup-una əlavə etmək lazımdır. Bunun üçün "net localgroup Users istifadeci /add" komandasını icra etmək kifayətdir. "net localgroup Users" əmrini icra edərək həmin localgroup-un içində həqiqətən də "istifadeci" istifadəçisinin olmasını təsdiqləmək mümkündür.
 
@@ -23,12 +23,12 @@ Sistemdə hansı "localgroup"-ların olduğunu görmək üçün əmr sətrinə "
 \
 User account control-un maksimum səviyyəyə çəkilməsi üçün axtarış hissəsində "uac"-a girib çıxan pəncərədəki səviyyə çubuğunu yuxarı çəkmək kifayətdir.
 
-![](<.gitbook/assets/3 (1).png>)
+![](<.gitbook/assets/3 (2).png>)
 
 \
 Bundan sonra sıra gəlir "Firewall"-ı sazlamağa, bura bütün profillərin loglanmasını aktivləşdirməkdir məqsədimiz. Bunun sayəsində komputerdə şübhəli hal olarsa, keçmiş loglara baxaraq vəziyyəti öyrənmək mümkündür.
 
-![](<.gitbook/assets/4 (1).png>)
+![](<.gitbook/assets/4 (2).png>)
 
 Bu addımdan sonra sıra gəlir "Windows Security" sazlamalarına:
 
