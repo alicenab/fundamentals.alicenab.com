@@ -1,5 +1,5 @@
 ---
-description: 'Salam, burada kiber təhlükəsizlik haqqında olan yazılarımı oxuya bilərsiniz.'
+description: Salam, burada fundamental məlumatları oxuyub öyrənəcəyinizi ümid edirəm.
 ---
 
 # Əsas səhifə
@@ -12,7 +12,7 @@ description: 'Salam, burada kiber təhlükəsizlik haqqında olan yazılarımı 
 * Virtualization və containerization nədir?
 * VMWare-də Kali Linux-u necə işlətmək olar?
 * VMWare-də Windows 10-u necə işlətmək olar?
-* Windows 10 əməliyyat sisteminin möhkəmləndirilməsi \(WORKGROUP komputerlər üçün\)
+* Windows 10 əməliyyat sisteminin möhkəmləndirilməsi (WORKGROUP komputerlər üçün)
 * Active Directory haqqında fundamental biliklər
 * Domenə necə qoşulmaq olar?
 
@@ -21,4 +21,3 @@ description: 'Salam, burada kiber təhlükəsizlik haqqında olan yazılarımı 
 * Shell skripting
   * 1 - dəyişənlər, arqumentlər, parametrlər
   * 2 - şərt və döngü operatorları
-
