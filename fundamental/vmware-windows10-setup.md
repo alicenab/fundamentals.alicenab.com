@@ -10,13 +10,13 @@ description: >-
 
 iso faylını ən rahat formada brauzerin user-agent-ini dəyişdirərək yükləyə bilərsiniz. Bunun üçün brauzerin add-on hissəsində "user-agent switch" axtarıb onu install etməyiniz lazım olacaq.
 
-Məsələn firefox üçün bu add-on məsləhətlidir: [https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/](https://www.blogger.com)
+Məsələn firefox üçün bu add-on məsləhətlidir: [https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/)
 
 ![](<../.gitbook/assets/0 (1).png>)
 
 Add to Firefox etdikdən sonra brauzerin yuxarı sağ tərəfdəki hissəsində add-on-un iconunun görəcəksiniz.
 
-[https://www.microsoft.com/en-us/software-download/windows10ISO](https://www.blogger.com)
+[https://www.microsoft.com/en-us/software-download/windows10ISO](https://www.microsoft.com/en-us/software-download/windows10ISO)
 
 Bu sayta daxil olduqdan sonra şəkildəki mərhələlərlə dəyişiklik edib F5 basaraq səhifəni refresh edin.
 

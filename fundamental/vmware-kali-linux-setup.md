@@ -8,8 +8,8 @@ description: >-
 
 &#x20;VMWare Workstation-un özünüzə uyğun ən son versiyasını aşağıdakı linklərdən sizə uyğun olanını clickləyərək yükləyə bilərsiniz:&#x20;
 
-Əgər Windows işlədirsinizsə: [https://www.vmware.com/go/getworkstation-win](https://www.blogger.com)\
-Əgər Linux işlədirsinizsə: [https://www.vmware.com/go/getworkstation-linux](https://www.blogger.com)
+Əgər Windows işlədirsinizsə: [https://www.vmware.com/go/getworkstation-win](https://www.vmware.com/go/getworkstation-win)\
+Əgər Linux işlədirsinizsə: [https://www.vmware.com/go/getworkstation-linux](https://www.vmware.com/go/getworkstation-linux)
 
 ![](../.gitbook/assets/0.png)
 
@@ -35,7 +35,7 @@ site:gist.github.com "vmware 16"
 
 Məsələn bu linkdə 16-cı versiyanın dörd ədəd lisenziya açarı paylaşılıb. Bunlardan birini yapışdırmaq lazımdır.
 
-[https://gist.github.com/gopalindians/ec3f3076f185b98353f514b26ed76507](https://www.blogger.com)
+[https://gist.github.com/gopalindians/ec3f3076f185b98353f514b26ed76507](https://gist.github.com/gopalindians/ec3f3076f185b98353f514b26ed76507)
 
 ![](../.gitbook/assets/8.png)
 
@@ -45,17 +45,17 @@ Məsələn bu linkdə 16-cı versiyanın dörd ədəd lisenziya açarı paylaş�
 
 Kali linux-un məsləhət görülən VM Appliance-ını aşağıdakı linkdən yükləyə bilərsiniz:
 
-[https://images.kali.org/virtual-images/kali-linux-2021.1-vmware-amd64.7z](https://www.blogger.com)&#x20;
+[https://images.kali.org/virtual-images/kali-linux-2021.1-vmware-amd64.7z](https://images.kali.org/virtual-images/kali-linux-2021.1-vmware-amd64.7z)&#x20;
 
 Əgər siz bu yazını oxuyarkən yuxarıdakı linkə click-lədiyinizdə nəsə yüklənməyə başlamadısa, aşağıdakı linkdən "Kali Linux VMware 64-Bit (7z)" versiyanı yükləyin:\
-[https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/](https://www.blogger.com)
+[https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/)
 
 ![](../.gitbook/assets/11.png)
 
 İnternetdən yüklədiyiniz bu faylı açmaq üçün sizə WinRar adlı axrivləşdirici proqram lazım olacaq. Həmin proqramı aşağıdakı linklərdən yükləyib quraşdıra bilərsiniz:
 
-32,86 bit üçün - [https://www.rarlab.com/rar/wrar601b1.exe](https://www.blogger.com)\
-64 bit üçün - [https://www.rarlab.com/rar/winrar-x64-601b1.exe](https://www.blogger.com)
+32,86 bit üçün - [https://www.rarlab.com/rar/wrar601b1.exe](https://www.rarlab.com/rar/wrar601b1.exe)\
+64 bit üçün - [https://www.rarlab.com/rar/winrar-x64-601b1.exe](https://www.rarlab.com/rar/winrar-x64-601b1.exe)
 
 ![](../.gitbook/assets/12.png)
 
